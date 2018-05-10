@@ -1,0 +1,9 @@
+function[a,b,Sqe]=AjusteExponencial(x,y)
+%Entries:
+%x, y vetires colunas dos nodos
+%Saida
+%a, coeficientes da funcao y = a*exp(b*x)
+%b, imagem dos valores de B, pela matriz X de planejamento
+%Sqe, soma quadratica dos erros (desvios)s
+z=ln(y);
+[B]=AjustePol(x,z,1);

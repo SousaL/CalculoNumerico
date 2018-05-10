@@ -1,0 +1,5 @@
+%Atencao arrumar funcao
+%b=B0+B1logm
+m=[44 61 81 113 131]';
+p=[91 98 103 110 112]';
+X=[m.^0 
